@@ -1,6 +1,6 @@
 import {apiKey} from "./apiKey.js";
 document.querySelector('button').addEventListener('click', getConversion)
-// https://v6.exchangerate-api.com/v6/
+// https://www.exchangerate-api.com/
 
 function getConversion(){
     const startCurr = document.querySelector('#start-curr').value;
