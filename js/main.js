@@ -1,6 +1,6 @@
 import {apiKey} from "./apiKey.js";
 document.querySelector('button').addEventListener('click', getConversion)
-// https://www.census.gov/data/developers/data-sets/census-microdata-api.html
+// https://v6.exchangerate-api.com/v6/
 
 function getConversion(){
     const startCurr = document.querySelector('#start-curr').value;
